@@ -10,6 +10,12 @@ La seule différence entre une extension Chrome et un site Web ordinaire, c’es
 
 Création d'une extension Chrome nommée Page Translator qui permet à l'utilisateur de traduire la page web sur laquelle il se trouve en fonction du langage qu'il a choisi au préalable.
 
+j'ai appris grâce à ce projet à :
+
+- configurer de la structure de base de notre extension, y compris le fichier manifeste.
+- Concevoir une popup d'extension avec HTML5 et CSS3 afin d'avoir une interface claire et intuitive.
+- implémenter le JavaScript pour gérer les demandes de traduction et injecter les traductions dans les pages Web.
+
 ## Démonstration
 
 Installation de l'extension chrome :
