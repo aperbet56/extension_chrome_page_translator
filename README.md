@@ -13,18 +13,18 @@ Création d'une extension Chrome nommée Page Translator qui permet à l'utilisa
 j'ai appris grâce à ce projet à :
 
 - configurer de la structure de base de notre extension, y compris le fichier manifeste.
-- Concevoir une popup d'extension avec HTML5 et CSS3 afin d'avoir une interface claire et intuitive.
+- concevoir une popup d'extension avec HTML5 et CSS3 afin d'avoir une interface claire et intuitive.
 - implémenter le JavaScript pour gérer les demandes de traduction et injecter les traductions dans les pages Web.
 
 ## Démonstration
 
 Installation de l'extension chrome :
 
-- Accédez à chrome://extensions dans votre navigateur Google Chrome.
-- Cochez la case « Mode développeur ».
-- Cliquez sur « Charger l’extension non empaquetée » qui affichera une boîte de dialogue de sélection de fichiers.
-- Sélectionnez le répertoire de votre extension.
-- Si l'extension est valide, elle devrait se charger immédiatement. Vérifiez que la case « Activé », située à côté de votre extension, est bien cochée afin de pouvoir la voir fonctionner en direct.
+1. Accédez à chrome://extensions dans votre navigateur Google Chrome.
+2. Cochez la case « Mode développeur ».
+3. Cliquez sur « Charger l’extension non empaquetée » qui affichera une boîte de dialogue de sélection de fichiers.
+4. Sélectionnez le répertoire de votre extension.
+5. Si l'extension est valide, elle devrait se charger immédiatement. Vérifiez que la case « Activé », située à côté de votre extension, est bien cochée afin de pouvoir la voir fonctionner en direct.
 
 ## Projet développé avec
 
