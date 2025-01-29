@@ -1,0 +1,71 @@
+/**** Importation de la police "Roboto" ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+}
+
+select,
+button {
+    outline: none;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 300px;
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 18px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+label,
+select,
+button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+select {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+select,
+button {
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    background-color: #bff28d;
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #efb2cc;
+}
